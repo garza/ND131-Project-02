@@ -1,0 +1,2 @@
+cpu_job_id = !qsub queue_job.sh -d . -l nodes=1:tank-870:e3-1268l-v5 -F "/data/models/intel/person-detection-retail-0013/FP32/person-detection-retail-0013 CPU /data/resources/manufacturing.mp4 /data/queue_param/manufacturing.npy /output/results/manufacturing/CPU 10" -N store_core
+print(cpu_job_id[0])

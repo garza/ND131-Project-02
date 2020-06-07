@@ -1,0 +1,5 @@
+models
+original_videos
+.DS_Store*
+output_video.mp4
+stats.txt
